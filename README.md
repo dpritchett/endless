@@ -12,13 +12,23 @@ Endless nameless is now listening on port 1234 with a delay of 1.10 second(s)...
 2014/06/04 11:19:20 [127.0.0.1]	PUT /abcefg?q=things
 ```
 
-```sh
+```
 $ curl localhost:1234
 *click*
 ```
 
 ## Why?
 I'd like to test some HTTP request timeout settings on an API client and I needed a way to simulate slow responses.
+
+## Options
+```sh
+$ endless --help
+Usage of endless:
+  -delay=1: Wait time before sending response
+  -port=8080: HTTP(s) listener port number
+  -response="*click*": String response to send to clients after delay has elapsed.
+  -ssl=false: Listen via HTTPS by passing --ssl.
+```
 
 ## Where
 * [Fresh binary releases are available](http://gobuild.io/download/github.com/dpritchett/endless) for Linux, OSX, and Windows.  Note:  I do not know the people behind gobuild and cannot speak for its security.
