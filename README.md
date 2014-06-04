@@ -1,5 +1,5 @@
 # Endless Nameless
-[![Gobuild Download](http://gobuild.io/badge/github.com/dpritchett/endless/download.png)](http://gobuild.io/github.com/dpritchett/endless)
+[![Gobuild Download](http://gobuild.io/badge/github.com/dpritchett/endless/download.png)](http://beta.gobuild.io/repo?id=59)
 
 Endless Nameless accepts any incoming HTTP requests, waits for a specified period of time, and then responds.
 
