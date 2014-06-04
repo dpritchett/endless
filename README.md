@@ -21,9 +21,9 @@ $ curl localhost:1234
 I'd like to test some HTTP request timeout settings on an API client and I needed a way to simulate slow responses.
 
 ## Where
-[Binary releases are available](http://gobuild.io/download/github.com/dpritchett/endless) for Linux, OSX, and Windows.  Note:  I do not know the people behind gobuild and cannot speak for its security.
-
-## Golang users
+* [Fresh binary releases are available](http://gobuild.io/download/github.com/dpritchett/endless) for Linux, OSX, and Windows.  Note:  I do not know the people behind gobuild and cannot speak for its security.
+* [Trusted downloads built by me](https://github.com/dpritchett/endless/releases) here on Github. May be out of date.
+* Golang users can build by hand:
 ```sh
 go get -u  github.com/dpritchett/endless
 go install github.com/dpritchett/endless
