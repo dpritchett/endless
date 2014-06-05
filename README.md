@@ -4,7 +4,7 @@
 Endless Nameless accepts any incoming HTTP requests, waits for a specified period of time, and then responds.
 
 ```sh
-$ ./endless --port 1234 --delay 1.1 --response="*click*"
+$ endless --port 1234 --delay 1.1 --response="*click*"
 Endless nameless is now listening on port 1234 with a delay of 1.10 second(s)...
 2014/06/04 11:18:50 [127.0.0.1]	GET /
 2014/06/04 11:19:14 [127.0.0.1]	GET /
